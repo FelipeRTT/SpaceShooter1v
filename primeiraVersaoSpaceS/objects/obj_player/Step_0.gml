@@ -9,3 +9,7 @@ var up = keyboard_check(vk_up);
 var down = keyboard_check(vk_down);
 
 
+// se direita for true vai ser 1 o resultado e se esquerda for true vai ser -1
+x += (right - left) * vel;
+y -= (up - down)*vel ;
+
