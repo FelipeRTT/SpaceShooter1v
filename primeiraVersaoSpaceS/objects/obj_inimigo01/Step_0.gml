@@ -3,6 +3,6 @@
 
 //testando se o obj inimigo ja esta na tela e reiniciando com a variavel boleana se nao ele daria somente um tiro
 if(y>=0 && natela ==false){
-	alarm[0] = room_speed*random_range(0.5,2);
+	alarm[0] = room_speed*random_range(0,3);
 	natela = true;
 }

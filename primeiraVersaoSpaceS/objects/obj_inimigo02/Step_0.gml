@@ -8,7 +8,7 @@ if(y>=0 && natela ==false){
 }
 
 if(natela == true && mudarDirecao){ //esta aparecendo
-	if(y>room_height/3){ // ja passou de um terço da tela
+	if(y>room_height/4){ //se o y ja passou da tela começar a mudar de direçao
 		if(x>room_width/2){ //esta na direita?
 			hspeed = -2; //entao acelerando para a esquerda
 			mudarDirecao = false; //mudando a variavel para ele nao poder mudar de direção dnv
