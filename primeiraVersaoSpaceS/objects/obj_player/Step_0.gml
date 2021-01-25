@@ -18,3 +18,9 @@ velv = (up - down)*vel ;
 //aplicando a velocidade
 x+= velh;
 y-= velv;
+
+//sendo destruido ao perder as 3 vidas
+if(vida <=0){
+	instance_destroy();
+}
+

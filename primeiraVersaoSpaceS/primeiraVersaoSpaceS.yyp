@@ -10,6 +10,7 @@
     {"id":{"name":"spr_tiro01","path":"sprites/spr_tiro01/spr_tiro01.yy",},"order":1,},
     {"id":{"name":"obj_explosao02","path":"objects/obj_explosao02/obj_explosao02.yy",},"order":1,},
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},"order":0,},
+    {"id":{"name":"obj_explosao_player","path":"objects/obj_explosao_player/obj_explosao_player.yy",},"order":3,},
     {"id":{"name":"obj_explosao","path":"objects/obj_explosao/obj_explosao.yy",},"order":0,},
     {"id":{"name":"obj_tiroinimigo01","path":"objects/obj_tiroinimigo01/obj_tiroinimigo01.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
