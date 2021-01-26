@@ -3,7 +3,7 @@
 //definindo direção, pra baixo
 direction = 270;
 //definbindo velocidade
-speed = 2;
+speed = 2.5;
 
 //criando variavel da chance de vim um power up de tiro
 chanceSpawn = random_range(0,100);
