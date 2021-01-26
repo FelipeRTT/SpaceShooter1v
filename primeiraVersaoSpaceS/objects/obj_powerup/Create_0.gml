@@ -9,3 +9,7 @@ image_xscale  = 0.5; //iniciando a imagem com 0.5
 
 aumentando = true;//criando variavel pra aumentar e diminuir
 diminuindo = false;
+
+//definindo variavel de cores para o draw
+cores = choose(c_aqua,c_red,c_purple,c_yellow,c_grey,c_black,c_green,c_lime,
+c_maroon,c_silver, c_blue, c_fuchsia,c_teal);
