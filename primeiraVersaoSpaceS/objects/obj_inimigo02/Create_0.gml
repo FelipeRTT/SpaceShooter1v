@@ -5,6 +5,9 @@ direction = 270;
 //definbindo velocidade
 speed = 2;
 
+//criando a chance de drop do power up
+chanceSpawn = random_range(0,100);
+
 //criando essa variavel boleana para usar no step do tiro
 natela = false;
 
