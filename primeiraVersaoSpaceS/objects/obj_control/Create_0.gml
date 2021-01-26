@@ -7,5 +7,5 @@ alarm[0] = room_speed*2;
 
 global.lvl = 1;
 expA = 0;
-expL = 2;
+expL = 10;
 

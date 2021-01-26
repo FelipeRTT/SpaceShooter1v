@@ -61,8 +61,8 @@ else if(lvltiro == 4){
 			val -= 20;//diminuindo a val para os 3 tiros irem em direção diferente 110,90,70
 		}
 	}
-}
-else if(lvltiro == 5){//vai ser uma junção do tiro 4 e do tiro 2
+}//lvl 5
+else{//vai ser uma junção do tiro 4 e do tiro 2
 	if(tiro){
 		var direita = instance_create_layer(x+28,y,"instances",obj_tiro02); //x+28 pra fazer ele sair do lado direito da nave
 		direita.hspeed=6;//fazendo um ir para direita
@@ -78,7 +78,12 @@ else if(lvltiro == 5){//vai ser uma junção do tiro 4 e do tiro 2
 		}
 	}
 }
-		
+
+//fazendo com que o nivel maximo de tiro seja 5, fazendo assim ele sempre vai ser 5 e sempre vai dropar o power up entao preferi fazer na destruição da nave so dropar quando o lvltiro for menor q 6
+/*if(lvltiro>5){
+	lvltiro =5;
+}
+*/		
 
 //se destruindo ao ficar sem vida
 if(vida ==0){
