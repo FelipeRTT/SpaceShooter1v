@@ -9,3 +9,4 @@ draw_text(20,40,"Exp "+ string(expA))
 
 //exibindo quanto falta de exp para o proximo lvl
 draw_text(80,40,"Prox lvl "+ string(expL-expA))
+

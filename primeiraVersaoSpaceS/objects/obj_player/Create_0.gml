@@ -4,3 +4,7 @@
 vel = 5;
 
 vida = 3;
+
+
+//criando variavel para definir o tiro
+lvltiro = 1 ;
