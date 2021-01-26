@@ -3,7 +3,7 @@
 
 vel = 5;
 
-vida = 30;
+vida = 4;
 
 
 //criando variavel para definir o tiro

@@ -10,7 +10,7 @@ var repete = random_range(1,6) * global.lvl;
 
 repeat(repete){
 var chance = random(10) * global.lvl//calculando chance de aparecer inimigo 2
-var xx = random_range(32,room_width-32);
+var xx = random_range(32,room_width-32); 
 var yy = random_range(-64,-1024);
 
 //se o random escolher um numero mair q 25 vai criar o inimigo 2
