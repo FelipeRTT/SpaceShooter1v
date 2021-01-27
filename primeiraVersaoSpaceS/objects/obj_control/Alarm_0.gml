@@ -15,9 +15,11 @@ var yy = random_range(-64,-1024);
 
 //se o random escolher um numero mair q 25 vai criar o inimigo 2
 if(chance>25){
-	instance_create_layer(xx,yy,"inimigos", obj_inimigo02);
+	var inimigo =instance_create_layer(xx,yy,"inimigos", obj_inimigo02);
+	inimigo.speed = random_range(2,5)//definindo uma velocidade aleatoria
 }else{//se nao vai criar o inimigo 1 
-instance_create_layer(xx,yy,"inimigos", obj_inimigo01);
+var inimigo = instance_create_layer(xx,yy,"inimigos", obj_inimigo01);
+inimigo.speed = random_range(1,4)
 }
 }
 

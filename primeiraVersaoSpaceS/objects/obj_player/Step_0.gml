@@ -11,8 +11,8 @@ var tiro = keyboard_check_pressed(vk_space);
 var escudo = keyboard_check_pressed(ord("E")); //fazendo a variavel do escudo
 
 //testando o tiro
-if(keyboard_check_pressed(ord("P"))) lvltiro++;
-if(keyboard_check_pressed(ord("O"))) lvltiro--;
+//if(keyboard_check_pressed(ord("P"))) lvltiro++;
+//if(keyboard_check_pressed(ord("O"))) lvltiro--;
 
 if(escudo){
 	instance_create_layer(x,y,"instances",obj_escudo);

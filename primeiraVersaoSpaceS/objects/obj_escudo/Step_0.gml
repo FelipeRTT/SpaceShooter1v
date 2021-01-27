@@ -10,3 +10,7 @@ y = obj_player.y;
 if(image_index == 0){ //diminuindo o brilho da imagem 0
 	image_alpha -= .05
 }
+
+//fazendo com que a cor troque o tempo todo
+cores= choose(c_aqua,c_blue,c_dkgray,c_gray,c_green,c_lime
+,c_navy,c_red,c_yellow,c_purple,c_orange, c_fuchsia);
