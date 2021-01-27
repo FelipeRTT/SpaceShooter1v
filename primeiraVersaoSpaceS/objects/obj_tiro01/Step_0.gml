@@ -1,4 +1,4 @@
 //destruindo ao sair da tela
-if(y < -92){
+if(y < -35){
 	instance_destroy();
 }
