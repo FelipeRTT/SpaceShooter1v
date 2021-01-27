@@ -7,3 +7,4 @@ estado = irandom(2)//i numero inteiro
 alarm[0] = room_speed *1
 */ 
 delay = 0; //criando variavel para o delay do tirro
+podeSeMover = true; //se a variavel for falsa ele vai para a direita e se move for true vai para a esquerda
