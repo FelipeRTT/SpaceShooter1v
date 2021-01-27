@@ -13,3 +13,6 @@ speed = 6;
 
 //fazendo a sprite do tiro ficar para baixo
 image_angle = 180;
+
+//fazendo tocar o efeito de tiro ao tiro ser criado
+audio_play_sound(snd_tiroinimigo,8,false);

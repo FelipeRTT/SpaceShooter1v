@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description colisao com player
 // You can write your code in this editor
 
 //fazendo com que os pontos so contem se foi um tiro q destruiu

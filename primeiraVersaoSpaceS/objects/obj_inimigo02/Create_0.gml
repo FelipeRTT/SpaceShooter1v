@@ -4,6 +4,7 @@
 direction = 270;
 //definbindo velocidade
 speed = 2;
+tomei_tiro = false;
 
 //criando a chance de drop do power up
 chanceSpawn = random_range(0,100);

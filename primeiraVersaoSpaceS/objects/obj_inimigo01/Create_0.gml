@@ -11,4 +11,6 @@ chanceSpawn = random_range(0,100);
 //criando essa variavel boleana para usar no step do tiro
 natela = false;
 
+tomei_tiro = false;
+
 

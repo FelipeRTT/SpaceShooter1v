@@ -98,8 +98,12 @@ else{//vai ser uma junção do tiro 4 e do tiro 2
 /*if(lvltiro>5){
 	lvltiro =5;
 }
-*/		
+*/
 
+//fazendo som de tiro ao atirar
+if(tiro){//fazendo o som de tiro ao player atirar
+	audio_play_sound(snd_tiro_player,10,false);
+}
 //se destruindo ao ficar sem vida
 if(vida ==0){
 	instance_destroy();

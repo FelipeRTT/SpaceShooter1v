@@ -19,3 +19,6 @@ if(natela == true && mudarDirecao){ //esta aparecendo
 	}
 }
 }
+if(y > room_height+100){//se destruindo ao sair da tela
+	instance_destroy();
+}

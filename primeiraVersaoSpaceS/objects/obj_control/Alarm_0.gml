@@ -1,13 +1,14 @@
 /// @description Criando os inimigos
 // You can write your code in this editor
 
+if(boss = false){ //fazendo com que caso aja um boss nao spaunar mais inimigos
 //fazendo com que o numero de naves criadas dependa do level 
 var repete = random_range(1,6) * global.lvl;
 
 
 
 //criando os inimigos, fazendo q a quantidade seja aleatoria
-if(boss = false){ //fazendo com que caso aja um boss nao spaunar mais inimigos
+
 repeat(repete){
 var chance = random(10) * global.lvl//calculando chance de aparecer inimigo 2
 var xx = random_range(32,room_width-32); 
