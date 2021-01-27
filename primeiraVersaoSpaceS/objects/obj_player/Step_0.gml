@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 
+
 //fazendo as variaveis de movimentação
 var left = keyboard_check(vk_left);
 var right = keyboard_check(vk_right);
@@ -14,8 +15,18 @@ var escudo = keyboard_check_pressed(ord("E")); //fazendo a variavel do escudo
 if(keyboard_check_pressed(ord("P"))) lvltiro++;
 //if(keyboard_check_pressed(ord("O"))) lvltiro--;
 
-if(escudo){
+//fazendo ganhar escudo a cada x tempo
+voltaEscudo++;// adicionando um de escudo por frame
+show_debug_message(voltaEscudo)
+//ele so vai ganhar no maximo um de escudo extra e o cooldown vai ser 15 segundos
+if(quantidaDeEscudo = 0 && voltaEscudo >= 900){//se a quantidade de escudo estiver zerada ao chegar em 900 ou mais ele ganhara um escudo 
+	quantidaDeEscudo++;
+	voltaEscudo = 0;//e vai zerar a contagem  do volta escudo
+}
+if(escudo && quantidaDeEscudo >0){//limitando o uso de escudos
 	instance_create_layer(x,y,"instances",obj_escudo);
+	quantidaDeEscudo --;//diminuindo os escudos
+	voltaEscudo = 0;//zerando o voltaEscudo assim q os escudo iniciais forem usados, ele ira começar do zero, pois se nao o player ja teria um escudo aguardando para ser usado
 }
 // se direita for true vai ser 1 o resultado e se esquerda for true vai ser -1
 //checando o lado

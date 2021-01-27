@@ -7,3 +7,11 @@ global.lvl++; //aumentando nivel
 expL *=1.8;//duplicando pontos necesarios
 show_debug_message(global.lvl);
 }
+
+if(global.lvl =5 && boss == false){//fazendo com que ao passar do nivel x crie o boss, se nao tivesse o boss = false ele iria criar infinito
+	instance_create_layer(room_width/2,-100,"inimigos",obj_boss);
+	instance_destroy(obj_inimigo01); //destruindo todo o resto de inimigos q ainda foram criados quando o boss nasceu
+	instance_destroy(obj_inimigo02);
+	boss = true;//fazendo com que pare de criar inimigos no alarm pois la so cria se boss for false, e tambem usando para nao criar infinitos boss pois assim q ele é criado uma vez ele altera o valor para true
+	
+	}
