@@ -9,6 +9,6 @@ n++;//a cada repetição vai aumentar o n, para que nao fique as imagens no msm 
 }
 
 repeat(quantidaDeEscudo){
-	draw_sprite_ext(spr_escudo,0,room_width -30 *n,room_height -50,.3,.3,image_angle,c_blue,4);
+	draw_sprite_ext(spr_escudo,0,room_width -30 *n,room_height -50,.3,.3,image_angle,c_blue,1);
 	n++
 }
