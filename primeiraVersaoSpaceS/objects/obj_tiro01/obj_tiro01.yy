@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_tiro01","path":"objects/obj_tiro01/obj_tiro01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_inimigo02","path":"objects/obj_inimigo02/obj_inimigo02.yy",},"parent":{"name":"obj_tiro01","path":"objects/obj_tiro01/obj_tiro01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_tiro01","path":"objects/obj_tiro01/obj_tiro01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"parent":{"name":"obj_tiro01","path":"objects/obj_tiro01/obj_tiro01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

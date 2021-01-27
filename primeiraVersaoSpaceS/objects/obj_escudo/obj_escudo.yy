@@ -29,6 +29,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_inimigo01","path":"objects/obj_inimigo01/obj_inimigo01.yy",},"parent":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_tiroinimigo02","path":"objects/obj_tiroinimigo02/obj_tiroinimigo02.yy",},"parent":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_inimigo02","path":"objects/obj_inimigo02/obj_inimigo02.yy",},"parent":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

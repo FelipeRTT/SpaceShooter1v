@@ -8,8 +8,17 @@ if(contador >= room_speed *6){//fazendo com que mude o estado a cada 6 segundos
 	contador = 0;//fazendo com que zere o contador apos escolher um numero aleatorio para repetir o ciclo
 	} 
 	
+	if(estado == 3){//fazendo com que ao estado ser 3 ele vir descendo
+		if(y < 160){//enquanto y for menor que 160 ir descendo
+			y += 1;
+		}else{//quando chegar ao 160 
+		estado = irandom(2);//escolher novo estado para atirar
+		delay = 0;//zerando o delay
+		contador = 0;//zerando o contador
+		}
+	}
 
-if(estado == 0){ //se o estado for zero
+if(estado == 0 && y = 160){ //se o estado for zero
 	if(delay > 45){
 	instance_create_layer(x+8,y+25,"instances",obj_tiroinimigo02);
 	delay = 0;
@@ -26,7 +35,7 @@ if(estado == 0){ //se o estado for zero
 	if(x <= 128) podeSeMover = false; //
 	
 	
-}else if (estado ==1){
+}else if (estado ==1 && y = 160){
 	
 	if(delay>50){ //fazendo com que quando o delay for maior que 20
 		//ele atire, ele começa com 0 no create e vai chegar ao 20 3 vezes em 1 segundo
@@ -49,7 +58,7 @@ if(estado == 0){ //se o estado for zero
 	
 	if (x >= 672) podeSeMover = true; //se o x for maior ou igual a 672 entao o pode se mover vai ser true e o x -=2
 	if(x <= 128) podeSeMover = false; //
-}else {
+}else if( y = 160) {
 	if(delay == 45){
 	instance_create_layer(x+8,y+25,"instances",obj_tiroinimigo02);
 	
@@ -68,4 +77,8 @@ if(estado == 0){ //se o estado for zero
 // tem que ser == onde nao tem o delay zerado
 
 
-
+//checando a vida do boss
+if(vida <= 0){
+	instance_destroy();
+}
+show_debug_message(vida);

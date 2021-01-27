@@ -1,9 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//declarando vida do boss
+vida = 500;
+
 randomize(); //garantindo q ele vai ficar mudando os estados
 contador = 0; // se o contador > room_speed * 6 subir o estado
-estado = irandom(2)//i numero inteiro
+estado = 3//i numero inteiro
 /*daria para fazer os tiros serem criados pelo alarme porem vou fazer pelo step
 alarm[0] = room_speed *1
 */ 
