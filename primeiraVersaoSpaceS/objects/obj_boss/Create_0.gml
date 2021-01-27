@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 randomize(); //garantindo q ele vai ficar mudando os estados
+contador = 0; // se o contador > room_speed * 6 subir o estado
 estado = irandom(2)//i numero inteiro
 /*daria para fazer os tiros serem criados pelo alarme porem vou fazer pelo step
 alarm[0] = room_speed *1

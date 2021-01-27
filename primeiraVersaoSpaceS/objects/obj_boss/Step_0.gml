@@ -2,13 +2,28 @@
 // You can write your code in this editor
 //step executa uma vez por segundo
 delay ++;//fazendo com que o delay ganhe 1 por segundo
+contador ++;//fazendo o contador subir tambem para trocar o estado
+if(contador >= room_speed *6){//fazendo com que mude o estado a cada 6 segundos
+	estado = irandom(2);
+	contador = 0;//fazendo com que zere o contador apos escolher um numero aleatorio para repetir o ciclo
+	} 
+	
 
 if(estado == 0){ //se o estado for zero
 	if(delay > 45){
 	instance_create_layer(x+8,y+25,"instances",obj_tiroinimigo02);
 	delay = 0;
 	}
+	//movimentação
+	if(podeSeMover == true){ //definindo a variavel para movimentação
+		x -= 4
+	}
+	if(podeSeMover == false){
+		x+= 4
+		}
 	
+	if (x >= 672) podeSeMover = true; //se o x for maior ou igual a 672 entao o pode se mover vai ser true e o x -=2
+	if(x <= 128) podeSeMover = false; //
 	
 	
 }else if (estado ==1){
