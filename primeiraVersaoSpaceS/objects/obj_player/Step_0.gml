@@ -25,7 +25,6 @@ if(quantidaDeEscudo = 0 && voltaEscudo >= 900){//se a quantidade de escudo estiv
 }
 if(escudo && quantidaDeEscudo >0){//limitando o uso de escudos
 	instance_create_layer(x,y,"instances",obj_escudo);
-	audio_play_sound(snd_escudoup,10,0);//tocando som do escudo ao criar ele
 	quantidaDeEscudo --;//diminuindo os escudos
 	voltaEscudo = 0;//zerando o voltaEscudo assim q os escudo iniciais forem usados, ele ira começar do zero, pois se nao o player ja teria um escudo aguardando para ser usado
 }
