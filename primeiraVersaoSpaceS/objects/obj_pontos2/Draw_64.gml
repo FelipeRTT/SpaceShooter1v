@@ -2,5 +2,15 @@
 // You can write your code in this editor
 
 if(room == rm_pontos){//fazendo com que mostre o maior score
-draw_text (room_width/2, room_height/2, global.maiorPontuacao);
+draw_set_font(fnt_titulo);//alterando fonte
+draw_set_halign(fa_center);//centralizando
+draw_text(room_width/2,200, "Melhor pontuacao registrada");//desenhando testo
+
+
+
+draw_set_font(fnt_exibir);//alterando fonte
+draw_text (room_width/2, room_height/2,"Maior pontuacao: "+ string( global.maiorPontuacao));
+draw_text (room_width/2, (room_height/2)+50,"Inimigos destruidos: "+ string( global.inimigosDestruidos));
+draw_set_halign(fa_left); // voltando ao padrao de posicionamento
+
 }

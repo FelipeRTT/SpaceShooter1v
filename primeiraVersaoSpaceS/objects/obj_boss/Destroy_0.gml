@@ -12,3 +12,4 @@ e.image_yscale = 3;
 //fazendo com que ao ser destruido ele faça com que a variavel que controla a criação de inimigos volte a funcionar no obj.control
 obj_control.boss = false;
 global.lvl += 2; //fazendo com que ao derotar o boss suba dois de nvl
+global.inimigosDestruidos ++;//calculando a pontuação de inimigos destruidos do obj_pontos2

@@ -16,6 +16,7 @@
     {"id":{"name":"snd_escudoup","path":"sounds/snd_escudoup/snd_escudoup.yy",},"order":2,},
     {"id":{"name":"fnt_exibir","path":"fonts/fnt_exibir/fnt_exibir.yy",},"order":0,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":2,},
+    {"id":{"name":"fnt_titulo","path":"fonts/fnt_titulo/fnt_titulo.yy",},"order":1,},
     {"id":{"name":"snd_tiro_player","path":"sounds/snd_tiro_player/snd_tiro_player.yy",},"order":0,},
     {"id":{"name":"obj_tiro01","path":"objects/obj_tiro01/obj_tiro01.yy",},"order":1,},
     {"id":{"name":"spr_tiro01","path":"sprites/spr_tiro01/spr_tiro01.yy",},"order":1,},

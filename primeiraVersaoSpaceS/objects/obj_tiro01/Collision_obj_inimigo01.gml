@@ -3,6 +3,7 @@
 //fazendo com que ao colidir com o inimigo o tomei tiro seja true
 with(other){
 	tomei_tiro = true;
+	
 }
 //me destruindo 
 instance_destroy();
