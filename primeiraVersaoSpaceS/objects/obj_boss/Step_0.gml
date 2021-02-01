@@ -15,6 +15,7 @@ if(contador >= room_speed *6){//fazendo com que mude o estado a cada 6 segundos
 		estado = irandom(2);//escolher novo estado para atirar
 		delay = 0;//zerando o delay
 		contador = 0;//zerando o contador
+		audio_play_sound(snd_fundo02,5,1); //fazendo ele tocar a musica dele ao entrar na tela
 		}
 	}
 

@@ -3,6 +3,7 @@
     {"id":{"name":"spr_explosao02","path":"sprites/spr_explosao02/spr_explosao02.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},"order":3,},
+    {"id":{"name":"snd_fundo02","path":"sounds/snd_fundo02/snd_fundo02.yy",},"order":5,},
     {"id":{"name":"spr_tiroinimigo01","path":"sprites/spr_tiroinimigo01/spr_tiroinimigo01.yy",},"order":1,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":4,},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"order":2,},
@@ -15,6 +16,7 @@
     {"id":{"name":"spr_tiro01","path":"sprites/spr_tiro01/spr_tiro01.yy",},"order":1,},
     {"id":{"name":"snd_escudodown","path":"sounds/snd_escudodown/snd_escudodown.yy",},"order":3,},
     {"id":{"name":"obj_powerup","path":"objects/obj_powerup/obj_powerup.yy",},"order":4,},
+    {"id":{"name":"snd_fundo01","path":"sounds/snd_fundo01/snd_fundo01.yy",},"order":4,},
     {"id":{"name":"obj_explosao02","path":"objects/obj_explosao02/obj_explosao02.yy",},"order":1,},
     {"id":{"name":"obj_inimigo02","path":"objects/obj_inimigo02/obj_inimigo02.yy",},"order":2,},
     {"id":{"name":"obj_tiroinimigo02","path":"objects/obj_tiroinimigo02/obj_tiroinimigo02.yy",},"order":3,},
@@ -31,7 +33,7 @@
     {"id":{"name":"spr_inimigo02","path":"sprites/spr_inimigo02/spr_inimigo02.yy",},"order":2,},
     {"id":{"name":"spr_tiro_inimigo02","path":"sprites/spr_tiro_inimigo02/spr_tiro_inimigo02.yy",},"order":3,},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"order":3,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rm_level01","path":"rooms/rm_level01/rm_level01.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -47,7 +49,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_level01","path":"rooms/rm_level01/rm_level01.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

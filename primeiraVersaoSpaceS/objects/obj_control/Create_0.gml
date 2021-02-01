@@ -12,3 +12,5 @@ global.lvl = 1;
 expA = 0;
 expL = 20;
 
+
+

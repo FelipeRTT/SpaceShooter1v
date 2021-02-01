@@ -3,6 +3,8 @@
 
 //declarando vida do boss
 vida = 500;
+obj_control.boss = true;
+
 
 randomize(); //garantindo q ele vai ficar mudando os estados
 contador = 0; // se o contador > room_speed * 6 subir o estado
