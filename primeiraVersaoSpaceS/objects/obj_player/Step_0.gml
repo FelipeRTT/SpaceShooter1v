@@ -111,8 +111,9 @@ if(vida ==0){
 
 
 //limitando o player na room
-x = clamp(x, 0, 800);
-y = clamp (y, 0,600)
+x = clamp(x, 0, room_width);//com clamp voce define o valor minimo e maximo 
+y = clamp (y, 0,room_height); //ajustando o valor maximo para ser do tamanho da room 
+
 
 
 
