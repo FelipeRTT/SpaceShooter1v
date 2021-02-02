@@ -1,4 +1,5 @@
 /// @description trocando a room para a do jogo
 // You can write your code in this editor
 //fazendo com que ao clicar no jogar o jogo inicie
-room_goto(rm_pontos); //indo para a room do jogo ao clicar
+var t = instance_create_layer(0,0,"instances",obj_transicao);
+t.destino = destino;

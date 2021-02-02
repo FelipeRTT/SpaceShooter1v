@@ -10,7 +10,7 @@ global.inimigosDestruidos ++;
 
 //fazendo com que ele drope o power up 
 if(instance_exists(obj_player)){ //checando se o player existe, se nao o jogo vai crashar
-	if(chanceSpawn <= 3 && obj_player.lvltiro <=5){
+	if(chanceSpawn <= 4 && obj_player.lvltiro <=5){
 		instance_create_layer(x,y,"inimigos",obj_powerup);
 	}
 }

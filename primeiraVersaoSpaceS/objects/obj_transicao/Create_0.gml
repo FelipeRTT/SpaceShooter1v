@@ -8,4 +8,7 @@ alpha = 0;
 sumindo = false;
 
 //checando se esta em uma nova room 
-nomaRoom = false;
+novaRoom = false;
+
+//criando variavel pra saber a room destino
+destino = noone;
