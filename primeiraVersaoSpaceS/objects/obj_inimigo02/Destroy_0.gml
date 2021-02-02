@@ -3,6 +3,8 @@
 instance_create_layer(x,y,"inimigos",obj_explosao);
 
 if(tomei_tiro){
+	//fazendo treme pelo script
+	scr_treme(30, noone, "inimigos");
 //ao ser destruido adicionar x de exp ao exp do obj_control
 obj_control.expA+= 5;
 global.totalinimigosDestruidos ++;//calculando a pontuação de inimigos destruidos do obj_pontos2

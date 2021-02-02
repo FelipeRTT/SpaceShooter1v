@@ -4,6 +4,9 @@
 //se destruindo ao colidir com o player
 instance_destroy();
 
+//fazendo tremida ao colidir com o player
+scr_treme(10,noone,"instances");
+
 //ao acertar o player ele perdera um de vida
 //widht com = com player execute esses comandos
 with(other){

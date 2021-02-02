@@ -2,10 +2,7 @@
 // You can write your code in this editor
 instance_create_layer(x,y,"inimigos",obj_explosao);
 if(tomei_tiro){
-	//criando o tremor na tela
-	var treme = instance_create_layer(x,y,"inimigos", obj_treme);
-	treme.forca = 50; //definindo a força da tremida
-	
+	scr_treme(20,noone,"inimigos"); // fazendo pelo script 
 global.inimigosDestruidos ++;
 global.totalinimigosDestruidos ++;//calculando a pontuação de inimigos destruidos do obj_pontos2
 //ao ser destruido adicionar um de exp ao exp do obj_control
