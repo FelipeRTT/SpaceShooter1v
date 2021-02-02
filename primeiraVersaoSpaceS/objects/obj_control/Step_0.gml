@@ -19,7 +19,7 @@ if(expA > global.maiorPontuacao){ //se o xp atual for maior q a maior pontuaçã
 
 
 //checando se boss existe
-if(global.lvl == 5 && boss == false){//fazendo com que ao passar do nivel x crie o boss, se nao tivesse o boss = false ele iria criar infinito
+if(global.lvl == 8 && boss == false){//fazendo com que ao passar do nivel x crie o boss, se nao tivesse o boss = false ele iria criar infinito
 	instance_create_layer(room_width/2,-100,"inimigos",obj_boss);
 	instance_destroy(obj_inimigo01); //destruindo todo o resto de inimigos q ainda foram criados quando o boss nasceu
 	instance_destroy(obj_inimigo02);
