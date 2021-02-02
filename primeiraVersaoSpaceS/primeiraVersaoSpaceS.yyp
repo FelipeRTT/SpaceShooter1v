@@ -5,6 +5,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},"order":3,},
     {"id":{"name":"snd_fundo02","path":"sounds/snd_fundo02/snd_fundo02.yy",},"order":5,},
+    {"id":{"name":"obj_treme","path":"objects/obj_treme/obj_treme.yy",},"order":5,},
     {"id":{"name":"spr_tiroinimigo01","path":"sprites/spr_tiroinimigo01/spr_tiroinimigo01.yy",},"order":1,},
     {"id":{"name":"rm_pontos","path":"rooms/rm_pontos/rm_pontos.yy",},"order":2,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":3,},
