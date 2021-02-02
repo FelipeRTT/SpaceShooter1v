@@ -110,7 +110,9 @@ if(vida ==0){
 }
 
 
-
+//limitando o player na room
+x = clamp(x, 0, 800);
+y = clamp (y, 0,600)
 
 
 
