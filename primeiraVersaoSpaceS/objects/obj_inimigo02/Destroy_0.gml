@@ -5,8 +5,8 @@ instance_create_layer(x,y,"inimigos",obj_explosao);
 if(tomei_tiro){
 //ao ser destruido adicionar x de exp ao exp do obj_control
 obj_control.expA+= 5;
-global.inimigosDestruidos ++;//calculando a pontuação de inimigos destruidos do obj_pontos2
-
+global.totalinimigosDestruidos ++;//calculando a pontuação de inimigos destruidos do obj_pontos2
+global.inimigosDestruidos ++;
 
 //fazendo com que ele drope o power up 
 if(instance_exists(obj_player)){ //checando se o player existe, se nao o jogo vai crashar

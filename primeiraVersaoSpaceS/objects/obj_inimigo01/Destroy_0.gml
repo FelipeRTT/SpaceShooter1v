@@ -2,8 +2,8 @@
 // You can write your code in this editor
 instance_create_layer(x,y,"inimigos",obj_explosao);
 if(tomei_tiro){
-
-global.inimigosDestruidos ++;//calculando a pontuação de inimigos destruidos do obj_pontos2
+global.inimigosDestruidos ++;
+global.totalinimigosDestruidos ++;//calculando a pontuação de inimigos destruidos do obj_pontos2
 //ao ser destruido adicionar um de exp ao exp do obj_control
 {
 obj_control.expA+=2;
